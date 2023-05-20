@@ -27,7 +27,7 @@ def main():
         return prediction
 
     model = load_model()
-    class_names = ["Lamp", "Chandelier"]
+    class_names = ["Chandelier", "Lamp"]
     
 
     file = st.file_uploader("Choose a Lamp or Chandelier picture from your computer", type=["jpg", "png", "jpeg"])
